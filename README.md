@@ -1,8 +1,10 @@
 # Installation
 Use one of these sources to install Shadowsocks and cloak
+  - https://github.com/shadowsocks/shadowsocks-rust & https://github.com/cbeuw/Cloak
+  - https://www.oilandfish.com/posts/shadowsocks-rust.html
+  - https://www.oilandfish.com/posts/shadowsocks-rust-almalinux-teddysun-repo.html
   - https://www.oilandfish.com/posts/shadowsocks-cloak.html
   - https://www.oilandfish.com/posts/shadowsocks-cloak-script.html
-  - https://github.com/shadowsocks/shadowsocks-libev & https://github.com/cbeuw/Cloak
 
 &nbsp;
 
