@@ -124,8 +124,7 @@ sysctl -q -p
 
 purge
 
-echo
-echo "-------------------------:"
+echo "-------------------------"
 echo "   Connection parameters:"
 echo "   Shadowsocks password: $SS_PASS"
 echo "   Cloak UserUID: $USER_UID"

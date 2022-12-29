@@ -38,7 +38,4 @@ if [ ! -f /usr/lib/libmbedtls.a ]; then
   ldconfig
 fi
 
-printlog "Cleaning up..."
 purge
-
-printlog "Done!"
