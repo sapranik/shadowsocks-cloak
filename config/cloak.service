@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloak Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ck-server -c /etc/cloak/ckserver.json
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

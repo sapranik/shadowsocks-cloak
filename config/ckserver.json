@@ -1,0 +1,19 @@
+{
+  "ProxyBook": {
+    "shadowsocks": [
+      "tcp",
+      "127.0.0.1:8388"
+    ]
+  },
+  "BindAddr": [
+    ":443"
+  ],
+  "BypassUID": [
+    "varUserUID"
+  ],
+  "RedirAddr": "127.0.0.1:8443",
+  "PrivateKey": "varPrivateKey",
+  "AdminUID": "varAdminUID",
+  "DatabasePath": "/etc/cloak/userinfo.db",
+  "StreamTimeout": 300
+}

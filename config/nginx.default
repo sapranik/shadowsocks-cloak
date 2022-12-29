@@ -1,0 +1,19 @@
+# Default server configuration
+server {
+	root /var/www/html;
+
+	index index.html;
+
+	server_name varDomain;
+	if ($request_method !~ ^(GET|HEAD|POST)$ )
+	{
+		return 405;
+	}
+	expires 1h;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+}

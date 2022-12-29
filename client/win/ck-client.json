@@ -1,0 +1,11 @@
+{
+  "Transport": "direct",
+  "ProxyMethod": "shadowsocks",
+  "EncryptionMethod": "plain",
+  "UID": "varUserUID",
+  "PublicKey": "varPublicKey",
+  "ServerName": "bing.com",
+  "NumConn": 4,
+  "BrowserSig": "firefox",
+  "StreamTimeout": 300
+}

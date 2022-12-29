@@ -1,0 +1,80 @@
+{
+  "version": "4.4.1.0",
+  "configs": [
+    {
+      "server": "varDomain",
+      "server_port": 443,
+      "password": "varShadowsocksPass",
+      "method": "aes-128-gcm",
+      "plugin": "ck-client.exe",
+      "plugin_opts": "ck-client.json",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    }
+  ],
+  "onlineConfigSource": [],
+  "strategy": null,
+  "index": 1,
+  "global": true,
+  "enabled": true,
+  "shareOverLan": false,
+  "firstRun": false,
+  "localPort": 1080,
+  "portableMode": true,
+  "showPluginOutput": false,
+  "pacUrl": "",
+  "useOnlinePac": false,
+  "secureLocalPac": true,
+  "regeneratePacOnUpdate": true,
+  "autoCheckUpdate": false,
+  "checkPreRelease": false,
+  "skippedUpdateVersion": "",
+  "isVerboseLogging": false,
+  "isIPv6Enabled": false,
+  "generateLegacyUrl": false,
+  "geositeUrl": "",
+  "geositeSha256sumUrl": "",
+  "geositeDirectGroups": [
+    "private",
+    "cn",
+    "geolocation-!cn@cn"
+  ],
+  "geositeProxiedGroups": [
+    "geolocation-!cn"
+  ],
+  "geositePreferDirect": false,
+  "userAgent": "ShadowsocksWindows/$version",
+  "logViewer": {
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "Font": "Consolas, 8pt",
+    "BackgroundColor": "Black",
+    "TextColor": "White"
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
+    "proxyTimeout": 3,
+    "useAuth": false,
+    "authUser": "",
+    "authPwd": ""
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "SwitchSystemProxyMode": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": "",
+    "RegHotkeysAtStartup": false
+  },
+  "WebProxy": {
+    "_BypassOnLocal": false,
+    "_ProxyAddress": "http://127.0.0.1:1080",
+    "_BypassList": null,
+    "_UseDefaultCredentials": false
+  }
+}
