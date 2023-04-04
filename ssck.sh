@@ -83,7 +83,7 @@ systemctl restart nginx
 
 # Shadowsocks
 printlog "Configuring Shadowsocks..."
-wget -q https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.15.2/shadowsocks-v1.15.2.x86_64-unknown-linux-gnu.tar.xz -O /tmp/ssck/shadowsocks-rust.tar.xz
+wget -q https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.15.3/shadowsocks-v1.15.3.x86_64-unknown-linux-gnu.tar.xz -O /tmp/ssck/shadowsocks-rust.tar.xz
 tar -C /usr/local/bin/ -xf /tmp/ssck/shadowsocks-rust.tar.xz
 
 mkdir -p -m 755 /etc/shadowsocks
@@ -98,8 +98,8 @@ systemctl -q start shadowsocks
 
 # Cloak
 printlog "Configuring Cloak..."
-wget https://github.com/cbeuw/Cloak/releases/download/v2.6.0/ck-server-linux-amd64-v2.6.0 -q
-mv ck-server-linux-amd64-v2.6.0 /usr/local/bin/ck-server
+wget https://github.com/cbeuw/Cloak/releases/download/v2.6.1/ck-server-linux-amd64-v2.6.1 -q
+mv ck-server-linux-amd64-v2.6.1 /usr/local/bin/ck-server
 chmod +x /usr/local/bin/ck-server
 setcap CAP_NET_BIND_SERVICE=+eip /usr/local/bin/ck-server
 
