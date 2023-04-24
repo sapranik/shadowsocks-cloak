@@ -98,8 +98,8 @@ systemctl -q start shadowsocks
 
 # Cloak
 printlog "Configuring Cloak..."
-wget https://github.com/cbeuw/Cloak/releases/download/v2.6.1/ck-server-linux-amd64-v2.6.1 -q
-mv ck-server-linux-amd64-v2.6.1 /usr/local/bin/ck-server
+wget https://github.com/cbeuw/Cloak/releases/download/v2.7.0/ck-server-linux-amd64-v2.7.0 -q
+mv ck-server-linux-amd64-v2.7.0 /usr/local/bin/ck-server
 chmod +x /usr/local/bin/ck-server
 setcap CAP_NET_BIND_SERVICE=+eip /usr/local/bin/ck-server
 
